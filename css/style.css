@@ -6,7 +6,8 @@
 
 * {
 	margin: 0;
-	font-family: 'PT Serif', serif;
+	/* font-family: 'PT Serif', serif; */
+	font-family: 'M PLUS Rounded 1c', sans-serif;
 	box-sizing: border-box;
 }
 img {
@@ -97,5 +98,26 @@ h1 {
 }
 
 @media screen and (max-width:768px){
-	
+	.img_wrap {
+		flex-direction: column;
+	}
+
+	.img_wrap_box {
+		width: 100%;
+	}
+
+	.img_wrap_box_photo {
+		position: static;
+		height: 50vh;
+	}
+
+	.takuya_comment {
+		left: 0;
+	}
+
+	.img_wrap_box_comment {
+		font-size: 10px;
+		top: 58%;
+		padding: 6px 20px;
+	}
 }
